@@ -59,7 +59,7 @@ Implemented basic error handling for smooth server operations.
 Tech Stack: 
 
 Backend: Node.js, Express  
-Database: MongoDB, Mongoose 
+Database: MongoDB, Mongoose.
 
 Milestone 4:
 

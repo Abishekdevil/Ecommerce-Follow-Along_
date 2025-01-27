@@ -43,3 +43,24 @@ Tech Stack Used
 
 - Frontend: React, Tailwindcss
 
+  
+
+Milestone 3: Serevr setup and error handling.
+
+
+Key Features: 
+
+Organized backend code with a clear folder structure.
+
+Configured a Node.js server using Express to handle APIs.
+
+Integrated MongoDB for data storage and management.
+
+Implemented basic error handling for smooth server operations.
+
+Tech Stack 
+
+ Backend: Node.js, Express  
+Database: MongoDB, Mongoose 
+
+

@@ -45,7 +45,7 @@ Tech Stack Used
 
   
 
-Milestone 3: Serevr setup and error handling.
+Milestone 3: Server setup and error handling.
 
 
 Key Features: 

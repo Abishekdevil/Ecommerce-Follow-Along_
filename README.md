@@ -43,3 +43,37 @@ Tech Stack Used
 
 - Frontend: React, Tailwindcss
 
+Milestone 3: Server setup and error handling.
+
+
+Key Features: 
+
+Organized backend code with a clear folder structure.
+
+Configured a Node.js server using Express to handle APIs.
+
+Integrated MongoDB for data storage and management.
+
+Implemented basic error handling for smooth server operations.
+
+Tech Stack: 
+
+Backend: Node.js, Express  
+Database: MongoDB, Mongoose 
+
+Milestone 4:
+
+# User Management System with File Upload
+
+This project is a simple User Management System that allows the creation, retrieval, and management of user data. It also supports file uploads (like profile pictures) using *Multer*.
+
+## Features
+- *User Model*: Blueprint for storing user data in the database.
+- *User Controller*: Manages operations like adding, retrieving, and updating user information.
+- *File Uploads*: Accepts and stores user-uploaded files (e.g., profile images).
+- *Documentation*: Well-documented code for ease of
+
+
+
+
+

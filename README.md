@@ -1,6 +1,6 @@
 # Ecommerce-Follow-Along.
 
- Milestone 1: Project Overview
+**Milestone 1: Project Overview**
 
  Core concepts:
  1)MERN Stack: A set of tools for building web apps:
@@ -30,7 +30,7 @@ Why This Project
 
 This project was developed to make online shopping easier and more enjoyable for users. By providing a personalized shopping experience, it helps users save time, find what they need, and stay updated with deals and notifications. The application aims to bring convenience and efficiency to e-commerce, catering to both frequent shoppers and occasional buyers.
 
-Milestone 2: Project Setup and Login Page
+**Milestone 2: Project Setup and Login Page**
 
 This milestone focuses on setting up the project structure and implementing a basic login page.
 
@@ -43,7 +43,7 @@ Tech Stack Used
 
 - Frontend: React, Tailwindcss
 
-Milestone 3: Server setup and error handling.
+**Milestone 3: Server setup and error handling.**
 
 
 Key Features: 
@@ -61,7 +61,7 @@ Tech Stack:
 Backend: Node.js, Express  
 Database: MongoDB, Mongoose.
 
-Milestone 4:
+**Milestone 4:**
 
 # User Management System with File Upload
 
@@ -72,6 +72,24 @@ This project is a simple User Management System that allows the creation, retrie
 - *User Controller*: Manages operations like adding, retrieving, and updating user information.
 - *File Uploads*: Accepts and stores user-uploaded files (e.g., profile images).
 - *Documentation*: Well-documented code for ease of
+
+
+
+**Milestone 5 :**
+
+This milestone focus on creating the sign-up page and form validation.
+
+
+
+Key Features
+
+- Project Setup: Initialized the project with the required dependencies and folder structure.
+- Signup Page: A simple signup page with fields for Name Email Password User Photo.
+
+Tech Stack Used
+
+- Frontend: React
+
 
 
 

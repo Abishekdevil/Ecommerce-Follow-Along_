@@ -63,11 +63,11 @@ Database: MongoDB, Mongoose.
 
 **Milestone 4:**
 
-# User Management System with File Upload
+ User Management System with File Upload
 
 This project is a simple User Management System that allows the creation, retrieval, and management of user data. It also supports file uploads (like profile pictures) using *Multer*.
 
-## Features
+Features
 - *User Model*: Blueprint for storing user data in the database.
 - *User Controller*: Manages operations like adding, retrieving, and updating user information.
 - *File Uploads*: Accepts and stores user-uploaded files (e.g., profile images).

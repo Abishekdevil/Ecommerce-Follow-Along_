@@ -26,7 +26,7 @@ router.post("/", upload.single("file"), catchAsyncErrors(async (req, res, next) 
                 return res.status(500).json({ message: "Error removing file" });
             }
         }
-        return next(new ErrorHandler("User already exists", 400));  // This now works correctly
+        return next(new ErrorHandler("User already exists", 400));  
     }
 
 

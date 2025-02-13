@@ -1,14 +1,9 @@
-
 import { React, useState } from "react";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import styles from "../../styles/styles";
 import { Link } from "react-router-dom";
 import { RxAvatar } from "react-icons/rx";
-import axios from "axios";
-//import { server } from "../../server";
-import { toast } from "react-toastify";
-
-
+import axios from 'axios';
 
 
 const Signup = () => {
@@ -19,27 +14,22 @@ const Signup = () => {
   const [avatar, setAvatar] = useState(null);
 
 
-
-
-
-
-  const handleFileInputChange = (e) => {
-    const reader = new FileReader();
-
-
-    reader.onload = () => {
-      if (reader.readyState === 2) {
-        setAvatar(reader.result);
-      }
-    };
-
-
-    reader.readAsDataURL(e.target.files[0]);
+  const handleFileSubmit = (e) => {
+    const file = e.target.files[0];
+    if (file) {
+      const filePath = URL.createObjectURL(file);
+      console.log("File path:", filePath);
+      setAvatar(file);
+    }
   };
 
 
-  const handleSubmit = async(e) => {
+
+
+  const handleSubmit = (e) => {
     e.preventDefault();
+
+
     const newForm = new FormData();
     newForm.append("file", avatar);
     newForm.append("name", name);
@@ -53,51 +43,14 @@ const Signup = () => {
     };
 
 
-
-
-    axios
-      .post("http://localhost:5000/api/v2/user", newForm, config)
-      .then((res) => {
-        console.log("res", res)
-        toast.success(res.data.message);
-        setName("");
-        setEmail("");
-        setPassword("");
-        setAvatar();
-      })
-      .catch((error) => {
-        console.log("rerer")
-        toast.error(error.response.data.message);
-      });
-    // let headers = new Headers();
-
-
-    // headers.append('Access-Control-Allow-Origin', 'http://localhost:3000');
-    // headers.append('Access-Control-Allow-Credentials', 'true');
-   
-
-
-    // try {
-    //   const res = await fetch("http://localhost:8000/api/v2/user",  {
-    //     // headers : headers,
-     
-     
-    //     method : "POST",
-    //     headers: {
-    //       "Content-Type": "application/json",  // Important for JSON payloads
-    //     },
-    //     body : JSON.stringify({name, email, password, })
-    //   });
-    //   const data = await res.json();
-    //   console.log(data)
-     
-    // } catch (error) {
-    //   console.log(error)
-    // }
+    axios.post("http://localhost:5000/api/v2/user/create-user", newForm, config).then((res) => {
+      console.log(res.data);
+    }).catch((err) => {
+      console.log(err);
+    });
   };
 
 
- 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
@@ -110,7 +63,7 @@ const Signup = () => {
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
               <label
-                htmlFor="email"
+                htmlFor="name"
                 className="block text-sm font-medium text-gray-700"
               >
                 Full Name
@@ -118,7 +71,7 @@ const Signup = () => {
               <div className="mt-1">
                 <input
                   type="text"
-                  name="text"
+                  name="name"
                   autoComplete="name"
                   required
                   value={name}
@@ -193,7 +146,7 @@ const Signup = () => {
                 <span className="inline-block h-8 w-8 rounded-full overflow-hidden">
                   {avatar ? (
                     <img
-                      src={avatar}
+                      src={URL.createObjectURL(avatar)}
                       alt="avatar"
                       className="h-full w-full object-cover rounded-full"
                     />
@@ -211,7 +164,7 @@ const Signup = () => {
                     name="avatar"
                     id="file-input"
                     accept=".jpg,.jpeg,.png"
-                    onChange={handleFileInputChange}
+                    onChange={handleFileSubmit}
                     className="sr-only"
                   />
                 </label>
@@ -221,7 +174,7 @@ const Signup = () => {
 
             <div>
               <button
-                type="submit"
+                type="submit" onClick={handleSubmit}
                 className="group relative w-full h-[40px] flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
               >
                 Submit
@@ -241,6 +194,4 @@ const Signup = () => {
 };
 
 
-export default Signup
-
-
+export default Signup;

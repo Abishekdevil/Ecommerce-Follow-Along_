@@ -30,7 +30,7 @@ export default function Product({ name, images, description, price }) {
    const interval = setInterval(() => {
      setCurrentIndex(prevIndex => (prevIndex + 1) % images.length);
    }, 2000);
-   return () => clearInterval(interval); // Cleanup on unmount
+   return () => clearInterval(interval); 
  }, [images]);
 
 

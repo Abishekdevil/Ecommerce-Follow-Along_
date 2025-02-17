@@ -1,13 +1,13 @@
 
 import React, { useEffect, useState } from "react";
-import Product from "../components/Product";
+import MyProduct from "../components/myproducts";
 
 
 export default function MyProducts() {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const email = "oviya.s2604@gmail.com";
+    const email = "abishekk@gmail.com";
 
 
     useEffect(() => {
@@ -45,9 +45,11 @@ export default function MyProducts() {
             <h1 className="text-3xl text-center text-white py-6">My products</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 p-4">
                 {products.map((product) => (
-                    <Product key={product._id} {...product}/>
+                    <MyProduct key={product._id} {...product} />
                 ))}
             </div>
         </div>
     );
 }
+
+

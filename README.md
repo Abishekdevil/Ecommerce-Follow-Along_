@@ -139,7 +139,7 @@ Tech stalk:
 **Milestone 8:**
 In this milestone,  we will create a frontend card component for products and design a homepage to display these cards for each product.
 
-Key features:
+Key features:   
   1) create a card component:
 Showcase Products Effectively: Presents product details in a clear and visually appealing way.
 Reusable Design: Can be used across multiple pages or sections of the app.
@@ -162,7 +162,7 @@ Frontend: react
 ## MileStone-9 : CreateProduct Component
 
 
-**Overview**
+**Overview**          
 
 CreateProduct is a React component that allows users to create a product by filling out a form with details such as name, description, category, price, stock, and images. It provides real-time image previews and validates required fields before submission.
 
@@ -202,3 +202,14 @@ In this milestone, we focused on making the home page dynamic by fetching and di
 **Milestone 12 - My Products Page with User-Based Filtering**
 
 In this milestone, we developed the *My Products* page, which displays only the products added by the logged-in user based on their email. We achieved this by writing a backend endpoint that filters product data in MongoDB using the user's email and sends only the relevant products to the frontend. On the frontend, we implemented a function to fetch this filtered data and dynamically render it using the existing product card component. This milestone provided valuable experience in filtering data based on specific constraints, handling API requests efficiently, and dynamically displaying user-specific content. Successfully completing this step enhances the personalization of the application, allowing users to manage their own products seamlessly. 
+
+
+**Milestone 13: Edit Uploaded Products**
+
+Overview
+In this milestone, we implemented the functionality to edit uploaded products in our application. Users can now modify product details seamlessly, with the form auto-filling existing data for convenience. Once edited, the updated information is sent to the backend and reflected in real time.
+
+ Tech Talk
+Backend: Created a PUT API endpoint (/products/:id) using findByIdAndUpdate() in MongoDB, ensuring proper error handling for invalid or non-existent IDs.
+Frontend: Added an edit button on product cards that fetches existing product details and auto-fills the form for editing. The updated data is then sent to the backend.
+Testing: Verified API functionality using Postman, checked data updates in MongoDB, and ensured real-time UI updates for a smooth user experience

@@ -1,10 +1,8 @@
 import React from 'react'
 import "./App.css";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import {LoginPage,Signupage,Home} from "./routes/routes.js";
-import CreateProduct from './pages/CreateProduct.jsx';
-import MyProducts from './pages/myProduct.jsx';
-import MyProduct from './components/myproducts.jsx'
+import {LoginPage,Signupage,Home,CreateProduct,MyProducts} from "./routes/routes.js";
+
 
 const App = () => {
   return (
@@ -14,9 +12,9 @@ const App = () => {
         <Route path ='/login' element={<LoginPage/>} />
         <Route path ='/signup' element={<Signupage/>} />
         <Route path ='/' element={<Home/>} />
-        <Route path ='/createProduct' element={<CreateProduct/>} />
-        <Route path ='/myProduct' element={<MyProducts/>} />
-        <Route path ='/myproduct' element={<MyProduct/>} />
+        <Route path ='/create' element={<CreateProduct/>} />
+        <Route path ='/myProducts' element={<MyProducts/>} />
+        <Route path ='/create-product/:id' element={<CreateProduct/>} />
 
         
         </Routes>

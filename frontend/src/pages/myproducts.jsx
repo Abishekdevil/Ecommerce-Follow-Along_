@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import MyProduct from "../components/myproducts";
+import axios from "axios";
 
 
 export default function MyProducts() {

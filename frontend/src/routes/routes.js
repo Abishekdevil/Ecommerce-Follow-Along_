@@ -3,8 +3,9 @@ import Signupage from "../pages/signupPage.jsx";
 import Home from "../pages/Home.jsx";
 import CreateProduct from "../pages/CreateProduct.jsx";
 import MyProducts from "../pages/myproducts.jsx";
+import Cart from "../pages/cart.jsx";
 
 
 export{
-    LoginPage,Signupage,Home, CreateProduct , MyProducts,
+    LoginPage,Signupage,Home, CreateProduct , MyProducts,Cart,
 }

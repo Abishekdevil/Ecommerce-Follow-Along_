@@ -229,3 +229,178 @@ Tech Stalk :
 
 Frontend:
 React.js – For building the Nav component.
+
+Share
+
+
+You said:
+ow many death occurs due to human in the orld
+ChatGPT said:
+Are you asking about deaths caused by humans worldwide, such as homicides, wars, and accidents? Or do you mean human-caused deaths in general, including things like pollution and healthcare failures?
+
+
+
+
+
+
+
+You said:
+all aspects like wat acident 
+ChatGPT said:
+In 2021, approximately 68 million deaths occurred worldwide. 
+WHO.INT
+ A significant portion of these deaths can be attributed to human-related factors, including non-communicable diseases, injuries, and environmental impacts.
+
+Non-Communicable Diseases (NCDs): NCDs, such as heart disease, stroke, cancer, and diabetes, are leading causes of death globally. In 2021, seven of the top ten causes of death were NCDs, accounting for 38% of all deaths. 
+WHO.INT
+ Many NCDs are linked to lifestyle factors like tobacco use, unhealthy diets, physical inactivity, and alcohol consumption.
+
+Injuries: Injuries, including those from road traffic accidents, falls, and violence, contribute significantly to global mortality. In 2021, injuries accounted for approximately 7.85% of all deaths. 
+EN.WIKIPEDIA.ORG
+
+Environmental Factors: Environmental issues, such as air pollution and climate change, also play a role in human mortality. For instance, climate change has been linked to extreme weather events, including heatwaves, which have resulted in millions of premature deaths. 
+THEGUARDIAN.COM
+
+While it's challenging to determine the exact number of deaths directly caused by human actions, it's evident that a substantial proportion of global mortality is influenced by factors such as lifestyle choices, environmental impacts, and societal conditions.
+
+Recent Findings on Global Mortality Causes
+vox.com
+Chronic diseases cause 75 percent of all deaths globally. The toll is likely to rise.
+147 days ago
+theguardian.com
+Climate crisis to blame for dozens of 'impossible' heatwaves, studies reveal
+93 days ago
+
+
+Sources
+
+
+
+
+
+
+
+
+
+You said:
+due to humans
+ChatGPT said:
+In 2021, approximately 68 million deaths occurred worldwide. 
+WHO.INT
+ A significant portion of these deaths can be attributed to human-related factors, including non-communicable diseases (NCDs), injuries, and environmental impacts.
+
+Non-Communicable Diseases (NCDs): NCDs, such as heart disease, stroke, cancer, and diabetes, are leading causes of death globally. In 2021, seven of the top ten causes of death were NCDs, accounting for 38% of all deaths. 
+WHO.INT
+ Many NCDs are linked to lifestyle factors like tobacco use, unhealthy diets, physical inactivity, and alcohol consumption.
+
+Injuries: Injuries, including those from road traffic accidents, falls, and violence, contribute significantly to global mortality. In 2021, injuries accounted for approximately 7.85% of all deaths. 
+EN.WIKIPEDIA.ORG
+
+Environmental Factors: Environmental issues, such as air pollution and climate change, also play a role in human mortality. Air pollution alone accounted for 8.1 million deaths globally in 2021, becoming the second leading global risk factor for death. 
+UNICEF.ORG
+ Climate change has been linked to extreme weather events, including heatwaves, which have resulted in millions of premature deaths. 
+THEGUARDIAN.COM
+
+While it's challenging to determine the exact number of deaths directly caused by human actions, it's evident that a substantial proportion of global mortality is influenced by factors such as lifestyle choices, environmental impacts, and societal conditions.
+
+Recent Findings on Human-Related Mortality Factors
+theguardian.com
+Climate crisis to blame for dozens of 'impossible' heatwaves, studies reveal
+93 days ago
+
+vox.com
+Chronic diseases cause 75 percent of all deaths globally. The toll is likely to rise.
+147 days ago
+theguardian.com
+Carbon emissions of richest 1% increase hunger, poverty and deaths, says Oxfam
+115 days ago
+
+
+Sources
+
+
+
+
+
+
+
+
+
+
+You said:
+by mosquito how many death are occuring
+ChatGPT said:
+Mosquitoes are among the deadliest animals to humans, transmitting diseases that result in significant mortality each year. The primary diseases spread by mosquitoes include malaria, dengue fever, Zika virus, chikungunya, yellow fever, and West Nile virus.
+
+Malaria: In 2023, there were approximately 263 million malaria cases worldwide, leading to 597,000 deaths, predominantly among children under five years old. 
+APNEWS.COM
+
+Dengue Fever: Annually, dengue affects an estimated 390 million people globally, with about 500,000 cases progressing to severe dengue hemorrhagic fever, resulting in up to 25,000 deaths. 
+WORLDMOSQUITOPROGRAM.ORG
+
+Other Mosquito-Borne Diseases: While diseases like Zika, chikungunya, yellow fever, and West Nile virus contribute to the global health burden, their mortality rates are generally lower compared to malaria and dengue.
+
+Overall, mosquito-borne diseases account for approximately 700,000 deaths annually, underscoring the critical need for effective prevention and control measures. 
+MONASH.EDU
+
+Recent Developments in Mosquito-Borne Disease Control
+apnews.com
+Hardest-hit Nigeria is latest African country to provide malaria vaccine to young children
+69 days ago
+news.com.au
+Nation eradicates deadly disease
+121 days ago
+
+
+Sources
+
+
+
+
+
+
+
+
+
+You said:
+ey Kalvians!
+
+Welcome to Milestone 16! 🌟
+
+Today, we will create an product info page that display all the product data and choose quantity and add to card button.
+
+Learning Goals 🎯
+By the end of this milestone, you will:
+
+How to new page to display each product.
+How to add quantity and add to card button.
+Steps for Milestone 16📝
+Create an new page that display all the product data
+
+Submission Guidelines 📥
+
+Push your code to your GitHub repository.
+Ensure your repository is publicly accessible.
+Update the README file to summarize your progress for Milestone 16.
+Share the repository link in the assignment submission section.
+Good luck, Kalvians! ✨
+**Milestone 15 - Reusable Navigation Component**  
+
+In this milestone, we created a reusable and responsive navigation bar for our eCommerce project. The Nav component includes links to essential pages like home, My Products, Add Product, and Cart. It was designed to be adaptive and user-friendly using CSS for responsiveness. This component was then integrated across multiple pages to ensure seamless navigation throughout the app. 
+
+
+Tech Stalk :
+
+Frontend:
+React.js – For building the Nav component.
+give like this
+ChatGPT said:
+Here’s your Milestone 16 update in the same format:
+
+**Milestone 16 - Product Info Page**
+In this milestone, we created a Product Info Page that displays detailed product data. Users can choose the quantity and click the Add to Cart button to add items to their cart.
+
+
+Tech Stack:
+Frontend:
+ React.js – For building the Product Info Page.

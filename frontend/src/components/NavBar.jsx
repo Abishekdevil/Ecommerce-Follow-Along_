@@ -133,7 +133,7 @@ const NavBar = () => {
                         </li>
                         <li>
                             <NavLink
-                                to="/myProducts"
+                                to="/myproducts"
                                 className={({ isActive }) =>
                                     isActive
                                         ? "block text-white font-semibold px-3 py-2 rounded-md text-base transition-colors duration-200"

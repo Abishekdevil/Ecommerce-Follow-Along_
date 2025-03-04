@@ -252,3 +252,14 @@ Users can add products, and the cart schema stores the product information.
 Backend:mongodb
 frontend:react.js
 
+
+**Milestone 18 - Backend API for Cart Page**
+In this milestone, we created backend endpoints to interact with the cart page and manage cart data for users.
+
+Features Implemented:
+Create an endpoint to receive requests from the cart page.
+Create a backend endpoint to fetch all products inside the cart using the user's email.
+
+Tech Stack:
+Backend:  MongoDB
+Frontend: React.js

@@ -262,4 +262,4 @@ Create a backend endpoint to fetch all products inside the cart using the user's
 
 Tech Stack:
 Backend:  MongoDB
-Frontend: React.js
+

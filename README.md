@@ -404,3 +404,16 @@ In this milestone, we created a Product Info Page that displays detailed product
 Tech Stack:
 Frontend:
  React.js – For building the Product Info Page.
+
+
+**Milestone 17 - Cart Functionality**
+
+
+In this milestone, we implemented cart functionality that allows users to store product details in a shopping cart.  
+Users can add products, and the cart schema stores the product information.
+
+
+ Tech Stack
+Backend:mongodb
+frontend:react.js
+

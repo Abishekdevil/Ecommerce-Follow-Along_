@@ -219,36 +219,6 @@ Testing: Verified API functionality using Postman, checked data updates in Mongo
  **Milestone 14 - Delete Product Functionality**  
 
 In this milestone, we implemented a delete functionality for products. We added a DELETE API endpoint in the backend using Express.js and MongoDB, allowing products to be removed using their ID. On the frontend, we added a **delete button to each product card, which sends a request to the server to remove the product from the database. This ensures a smooth user experience by dynamically updating the UI after deletion. 
-
-**Milestone 15 - Reusable Navigation Component**  
-
-In this milestone, we created a reusable and responsive navigation bar for our eCommerce project. The Nav component includes links to essential pages like home, My Products, Add Product, and Cart. It was designed to be adaptive and user-friendly using CSS for responsiveness. This component was then integrated across multiple pages to ensure seamless navigation throughout the app. 
-
-
-Tech Stalk :
-
-Frontend:
-React.js – For building the Nav component.
-
-Welcome to Milestone 16! 🌟
-
-Today, we will create an product info page that display all the product data and choose quantity and add to card button.
-
-Learning Goals 🎯
-By the end of this milestone, you will:
-
-How to new page to display each product.
-How to add quantity and add to card button.
-Steps for Milestone 16📝
-Create an new page that display all the product data
-
-Submission Guidelines 📥
-
-Push your code to your GitHub repository.
-Ensure your repository is publicly accessible.
-Update the README file to summarize your progress for Milestone 16.
-Share the repository link in the assignment submission section.
-Good luck, Kalvians! ✨
 **Milestone 15 - Reusable Navigation Component**  
 
 In this milestone, we created a reusable and responsive navigation bar for our eCommerce project. The Nav component includes links to essential pages like home, My Products, Add Product, and Cart. It was designed to be adaptive and user-friendly using CSS for responsiveness. This component was then integrated across multiple pages to ensure seamless navigation throughout the app. 

@@ -269,3 +269,17 @@ In this milestone, we will create the cart page UI, display products from the ba
 Tech stalk :
 Frontend: React.js
 Backend : mongoDB
+
+M**ilestone 20 - Profile Page & API**
+
+
+ In this milestone we are going to show profile page displaying user details dynamically.
+Backend 
+- Create an API endpoint to fetch user data by email.  
+- Ensure database connection & CORS setup.  
+
+Frontend 
+- Fetch and display profile photo, name, email.  
+- Show addresses (or "No address found").  
+- Add Add Address button.  
+

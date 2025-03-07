@@ -53,7 +53,7 @@ export default function ProductDetails() {
 	const addtocart = async () => {
 		try {
 			const response = await axios.post(
-				"http://localhost:/api/v2/product/cart",
+				"http://localhost:5000/api/v2/product/cart",
 				{
 					userId: email,
 					productId: id,

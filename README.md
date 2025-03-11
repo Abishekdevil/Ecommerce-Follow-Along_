@@ -299,3 +299,18 @@ Address Type (e.g., Home, Work)
 
 Tech stalk:
 Frontend:React.js
+
+# Milestone 22: Store User Address in Database
+
+Overview
+
+Create a backend endpoint to store a user's address inside their profile in the database.
+
+Steps to Complete
+
+Set Up Route - Create an Express route to handle address submissions.
+
+Implement Logic - Find user, update their address array, and save changes.
+
+Tech Stalk:
+Backend:mongoDB

@@ -270,7 +270,7 @@ Tech stalk :
 Frontend: React.js
 Backend : mongoDB
 
-M**ilestone 20 - Profile Page & API**
+**Milestone 20 - Profile Page & API**
 
 
  In this milestone we are going to show profile page displaying user details dynamically.
@@ -283,3 +283,19 @@ Frontend
 - Show addresses (or "No address found").  
 - Add Add Address button.  
 
+
+**Milestone 21 - Address Form**
+
+1)Create an address form page with input fields:
+
+Country
+City
+Address 1
+Address 2
+Zip Code
+Address Type (e.g., Home, Work)
+2)Store the input address in the application state.
+3)Ensure clicking "Add Address" in the profile page navigates to this form.
+
+Tech stalk:
+Frontend:React.js

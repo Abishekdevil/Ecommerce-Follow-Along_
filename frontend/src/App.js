@@ -1,7 +1,7 @@
 import React from 'react'
 import "./App.css";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import {LoginPage,Signupage,Home,CreateProduct,MyProducts,Cart,ProductDetails,Profile} from "./routes/routes.js";
+import {LoginPage,Signupage,Home,CreateProduct,MyProducts,Cart,ProductDetails,Profile,CreateAddress} from "./routes/routes.js";
 
 
 const App = () => {
@@ -18,6 +18,7 @@ const App = () => {
         <Route path ='/cart' element={<Cart/>} />
         <Route path ='/product/:id' element={<ProductDetails/>} />
         <Route path ='/profile' element={<Profile/>} />
+        <Route path ='/create-address' element={<CreateAddress/>} />
         
         </Routes>
         </BrowserRouter>

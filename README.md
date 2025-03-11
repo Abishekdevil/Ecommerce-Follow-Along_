@@ -300,7 +300,7 @@ Address Type (e.g., Home, Work)
 Tech stalk:
 Frontend:React.js
 
-# Milestone 22: Store User Address in Database
+**Milestone 22: Store User Address in Database**
 
 Overview
 

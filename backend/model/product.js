@@ -16,7 +16,7 @@ const productSchema = new mongoose.Schema(
             required: [true, "Please provide the product category"],
         },
         tags: {
-            type: [String], // Array of tags
+            type: [String], 
             default: [],
         },
         price: {
@@ -33,28 +33,14 @@ const productSchema = new mongoose.Schema(
             match: [/.+@.+\..+/, "Please provide a valid email address"],
         },
         images: {
-            type: [String], // Array of image URLs (base64 or hosted links)
+            type: [String], 
             required: [true, "Please upload product images"],
         },
         createdAt: {
             type: Date,
-            default: Date.now, // Automatically set the creation date
+            default: Date.now, 
         },
-        
- cart: [
-    {
-        productid: {
-            type: String,
-            required: [true, "Please provide the product ID"],
-            unique: true,
-        },
-        quantity: {
-            type: Number,
-            required: [true, "Please provide the quantity"],
-            min: [0, "Quantity cannot be negative"],
-        },
-    },
-],
+    
 },
 
     

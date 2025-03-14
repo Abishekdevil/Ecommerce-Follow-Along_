@@ -335,3 +335,19 @@ Frontend: React
 Backend: Node.js, Express.js
 
 Database: MongoDB
+
+**Milestone 24 - Order Confirmation Page**
+
+ Features Implemented:
+- Display all the products being ordered.
+- Show the selected delivery address.
+- Display the total value of the cart.
+- Add a "Place Order" button at the bottom.
+
+Tech Stack:
+Frontend: React
+Backend: Node.js, Express.js
+Database: MongoDB
+
+
+

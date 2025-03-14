@@ -314,3 +314,24 @@ Implement Logic - Find user, update their address array, and save changes.
 
 Tech Stalk:
 Backend:mongoDB
+
+
+**Milestone 23 - Place Order Functionality**
+
+Features Implemented:
+
+Added a "Place Order" button in the cart page.
+
+Created a "Select Address" page to display and choose a delivery address.
+
+Developed a backend endpoint to fetch user addresses.
+
+Designed a Mongoose schema to store order details.
+
+Tech Stack:
+
+Frontend: React
+
+Backend: Node.js, Express.js
+
+Database: MongoDB

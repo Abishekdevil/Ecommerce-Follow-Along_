@@ -349,5 +349,13 @@ Frontend: React
 Backend: Node.js, Express.js
 Database: MongoDB
 
+**Milestone 25 - Placing an Order**
+Overview
+In this milestone, we will implement the backend endpoint that allows users to place an order. This endpoint will receive product details, user details, and the delivery address. Each product will be stored as a separate order in the database.
+
+
+Tech Stack
+Backend: Node.js, Express.js
+Database: MongoDB
 
 

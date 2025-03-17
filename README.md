@@ -359,3 +359,11 @@ Backend: Node.js, Express.js
 Database: MongoDB
 
 
+**Milestone 26 - Fetching User Orders**
+Overview
+In this milestone, we will implement an API endpoint that retrieves all orders placed by a specific user. The endpoint will receive the user’s email, find the user's _id, and return all orders associated with that user.
+
+Tech Stack
+Backend: Node.js, Express.js
+Database: MongoDB
+Frontend: React

@@ -415,4 +415,17 @@ Payment Gateway: PayPal
 5. Use *Sandbox mode* for testing before going live.
 6. Replace the sandbox client-id with a live Client ID for real transactions.
 
-This integration allows users to make secure payments via PayPal, credit, and debit cards. 🚀
+This integration allows users to make secure payments via PayPal, credit, and debit cards. 
+
+
+
+**Milestone 31 - Redux Global State Management**
+
+Overview
+In this milestone, we implement Redux for global state management, allowing seamless access to the user's email across components. We configure a Redux store, define actions, and provide the store to the app.
+
+Tech Stack
+- Frontend: React
+- State Management: Redux, React-Redux
+
+

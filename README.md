@@ -428,4 +428,10 @@ Tech Stack
 - Frontend: React
 - State Management: Redux, React-Redux
 
+ **Milestone 32 - Global State Management with Redux (Login Flow)**
 
+Overview
+ In this milestone we will come to learn how to use Redux for managing global state by storing the user's email on login and accessing it across the app using useSelector.
+
+Tech Stack:
+Frontned: React.js

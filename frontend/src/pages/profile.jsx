@@ -3,6 +3,7 @@ import AddressCard from "../components/AddressCard";
 import Nav from "../components/NavBar";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
+import axios from "../axiosConfig";
 
 
 export default function Profile() {
@@ -21,8 +22,8 @@ export default function Profile() {
 
     useEffect(() => {
         if(!email) return;
-        fetch(
-            `http://localhost:5000/api/v2/user/profile?email=${email}`,
+        axios.get(
+            `/api/v2/user/profile?email=${email}`,
             {
                 method: "GET",
                 headers: {

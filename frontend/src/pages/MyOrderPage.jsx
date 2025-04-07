@@ -3,6 +3,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import Nav from '../components/NavBar'
 import { useSelector } from 'react-redux';
+import axios from "../axiosConfig"
 
 const MyOrdersPage = () => {
     const [orders, setOrders] = useState([]);
@@ -15,7 +16,7 @@ const MyOrdersPage = () => {
         try {
             setLoading(true);
             setError('');
-            const response = await axios.get('http://localhost:5000/api/v2/orders/myorders', {
+            const response = await axios.get('/api/v2/orders/myorders', {
                 params: {email},
             });
             setOrders(response.data.orders);

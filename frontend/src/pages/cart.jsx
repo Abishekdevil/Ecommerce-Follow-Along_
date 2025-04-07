@@ -4,6 +4,7 @@ import CartProduct from '../components/CartProduct';
 import Nav from '../components/NavBar';
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import axios from "../axiosConfig"
 
 
 
@@ -16,7 +17,7 @@ const Cart = () => {
 
     useEffect(() => {
       if(!email) return;
-        fetch(`http://localhost:5000/api/v2/product/cartproducts?email=${email}`)
+        axios.get(`/api/v2/product/cartproducts?email=${email}`)
           .then((res) => {
             if (!res.ok) {
               throw new Error(`HTTP error! status: ${res.status}`);

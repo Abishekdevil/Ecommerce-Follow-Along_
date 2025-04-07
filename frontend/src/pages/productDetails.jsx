@@ -5,6 +5,7 @@ import Nav from "../components/NavBar";
 import { IoIosAdd } from "react-icons/io";
 import { IoIosRemove } from "react-icons/io";
 import { useSelector } from "react-redux";
+import axios from "../axiosConfig"
 
 export default function ProductDetails() {
 	const { id } = useParams();
@@ -18,7 +19,7 @@ export default function ProductDetails() {
 		const fetchProduct = async () => {
 			try {
 				const response = await axios.get(
-					`http://localhost:5000/api/v2/product/product/${id}`
+					`/api/v2/product/product/${id}`
 				);
 				console.log("Fetched product:", response.data.product);
 				setProduct(response.data.product); // Ensure correct state setting
@@ -54,7 +55,7 @@ export default function ProductDetails() {
 	const addtocart = async () => {
 		try {
 			const response = await axios.post(
-				"http://localhost:5000/api/v2/product/cart",
+				"/api/v2/product/cart",
 				{
 					userId: email,
 					productId: id,

@@ -4,6 +4,7 @@ import axios from 'axios';
 import Nav from '../components/NavBar'; 
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import axios from "../axiosConfig"
 
 
 const SelectAddress = () => {
@@ -22,7 +23,7 @@ const SelectAddress = () => {
         if(!userEmail) return;
         const fetchAddresses = async () => {
             try {
-                const response = await axios.get('http://localhost:5000/api/v2/user/addresses', {
+                const response = await axios.get('/api/v2/user/addresses', {
                     params: { email:userEmail},
                 });
 

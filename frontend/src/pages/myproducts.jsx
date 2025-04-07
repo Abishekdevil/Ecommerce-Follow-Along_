@@ -4,6 +4,7 @@ import MyProduct from "../components/myproducts";
 import axios from "axios";
 import Nav from "../components/NavBar";
 import { useSelector } from "react-redux";
+import axios from "../axiosConfig"
 
 
 export default function MyProducts() {
@@ -15,7 +16,7 @@ export default function MyProducts() {
 
     useEffect(() => {
         if(!email) return;
-        fetch(`http://localhost:5000/api/v2/product/my-products?email=${email}`)
+        axios.get(`/api/v2/product/my-products?email=${email}`)
             .then((res) => {
                 if (!res.ok) {
                     throw new Error(`HTTP error! status: ${res.status}`);

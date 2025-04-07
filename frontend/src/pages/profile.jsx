@@ -32,16 +32,10 @@ export default function Profile() {
             }
         )
             .then((res) => {
-                if (!res.ok) {
-                    throw new Error(`HTTP error! status: ${res.status}`);
-                }
-                return res.json();
-            })
-            .then((data) => {
-                setPersonalDetails(data.user);
-                setAddresses(data.addresses);
-                console.log("User fetched:", data.user);
-                console.log("Addresses fetched:", data.addresses);
+                setPersonalDetails(res.data.user);
+                setAddresses(res.data.addresses);
+                console.log("User fetched:", res.data.user);
+                console.log("Addresses fetched:", res.data.addresses);
             });
     }, [email]);
     const handleAddAddress=()=>{

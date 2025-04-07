@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import MyProduct from "../components/myproducts";
-import axios from "axios";
+
 import Nav from "../components/NavBar";
 import { useSelector } from "react-redux";
 import axios from "../axiosConfig"
@@ -17,14 +17,9 @@ export default function MyProducts() {
     useEffect(() => {
         if(!email) return;
         axios.get(`/api/v2/product/my-products?email=${email}`)
+            
             .then((res) => {
-                if (!res.ok) {
-                    throw new Error(`HTTP error! status: ${res.status}`);
-                }
-                return res.json();
-            })
-            .then((data) => {
-                setProducts(data.products);
+                setProducts(res.data.products);
                 setLoading(false);
             })
             .catch((err) => {

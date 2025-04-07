@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
-import axios from 'axios';
+
 import Nav from '../components/NavBar'
 import { useSelector } from 'react-redux';
 import axios from "../axiosConfig"

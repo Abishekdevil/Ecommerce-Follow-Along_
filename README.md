@@ -446,3 +446,22 @@ In this milestone, you'll learn how to securely generate a JWT token upon user l
 Tech Stack:
 Backend :Express.js,jsonwebtoken
 Database: Mongodb
+
+
+
+**Milestone 34 - Validating JWT Token from Cookie and Protecting Routes**
+
+Overview:
+
+In this milestone, you will learn how to extract the JWT token from the browser cookie, validate it using a backend middleware, and protect specific routes so that only authenticated users can access them. This is crucial for maintaining security in full-stack applications by ensuring only logged-in users can access certain pages.
+
+Tech Stack:
+
+Frontend: React.js
+
+Backend: Express.js
+
+Auth: JWT (jsonwebtoken)
+
+Database: MongoDB
+
